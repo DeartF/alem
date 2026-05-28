@@ -1,32 +1,18 @@
-# Alem Education — Landing Page
+# Арзан Alem — Landing Page
 
-Landing page for Alem Education, built with Astro + React + Tailwind CSS v4.
+Статический лендинг. Нет зависимостей, нет сборки.
 
-## Quick Start
+## Как развернуть
 
-```bash
-# Install dependencies (requires Node.js >= 22.12)
-npm install
+Положите все файлы на любой хостинг. Готово.
 
-# Start dev server at localhost:4321
-npm run dev
+## Файлы
 
-# Build for production
-npm run build
-```
-
-Production build outputs to `./dist/` — deploy it to any static hosting.
-
-## Stack
-
-- [Astro](https://astro.build/) v6
-- [React](https://react.dev/) v19
-- [Tailwind CSS](https://tailwindcss.com/) v4
-- [Motion](https://motion.dev/) (animations)
-- [Lucide React](https://lucide.dev/) (icons)
-- Font: [Geist](https://vercel.com/font)
+- `index.html` — страница
+- `avatar.png` — логотип
+- `favicon.ico` / `favicon.svg` — иконки
 
 ## Facebook Pixel
 
-Meta Pixel (ID `2138617860328806`) is included in `src/layouts/Base.astro`.
-To change pixel ID, update the `fbq('init', '...')` line.
+Meta Pixel (ID `2138617860328806`) встроен в index.html.
+Чтобы изменить ID, найдите `fbq('init', '...')` и замените.
